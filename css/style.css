@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head-sec{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./lake.jpg);
+    height: 100vh;
+    width: 100vw;
+    top: 0%;
+    background-position: bottom;
+    background-size: cover;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.lava{
+    font-size: 18vmin;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 0px;
+    font-family: 'Montserrat', sans-serif !important;
+    color: white;
+}
+
+.sub{
+    
+    font-size: 3vmin;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-left: 0px;
+    font-family: 'Lato', sans-serif !important;
+    color: white;
+}
+
+.line{
+    height: 4px;
+    width: 150px;
+    margin: 10px auto;
+    background: #fc036b;
+    justify-self: center;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #fc036b;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+.nav{
+    position: absolute;
+    display: flex;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    font-size: 18px;
+    }
+
+    a:link {
+        color: rgb(160, 219, 255) !important;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: whitesmoke;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: #fc036b !important;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:active {
+        color: yellow !important;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      .events{
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 5%;
+      }
+
+      .line2{
+        height: 4px;
+        width: 150px;
+        margin: 10px auto;
+        background: #fc036b;
+        justify-self: center;
+      }
+
+      .card-title{
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bold;
+      }
+      
+      .card-body a{
+        color: whitesmoke !important;
+        background-color: #fc036b;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 25px;
+        margin-left: 35%;
+      }
+
+      .card-body a:hover{
+        text-decoration: none;
+        background-color: #931d4e;
+      }
+
+      .tourscol{
+        margin-top: 60px;
+      }
+
+      .card1{
+        margin-left: 45px;
+        margin-left: 23%;
+        margin-right: 11%;
+      }
+
+      .card2{
+        margin-left: 45px;
+        margin-left: 20%;
+        margin-right: 15%;
+      }
+
+      .card-img-top1{
+        height: 20rem;
+        width: 30rem;
+      }
+
+      .card-img-top2{
+        height: 20rem;
+        width: 30rem;
+      }
+
+      .container-img{
+        background-image: url(./wallpaperflare.com_wallpaper\ \(3\).jpg);
+        height: 80vh;
+        width: 100vw;
+        margin-top: 3%;
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+      }
+
+      .container-text{
+        color: whitesmoke;
+        font-size: 6pc;
+        margin-top: 10vmin;
+        text-shadow: 2px 2px 5px black;
+        margin-left: 3%;
+        letter-spacing: 3.5px;
+        line-height: 100%;
+      }
+
+      .lineex{
+        height: 4px;
+        width: 650px;
+        margin: 20px 150px;
+        background: #fc036b;
+        justify-self: left;
+      }
+
+      .lorem{
+        color: whitesmoke;
+        font-size: 20px;
+        margin-top: 8vmin;
+        margin-right: 550px;
+        text-shadow: 2px 2px 5px black;
+        margin-left: 3%;
+        letter-spacing: 3.5px;
+        line-height: 100%;
+        text-align: justify;
+      }
+
+      .container-img a{
+        color: whitesmoke;
+        background-color: #fc036b;
+        margin-left: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 25px;
+        text-decoration: none;
+        margin-top: 20%;
+      }
+
+      .container-img a:hover{
+        color: #fc036b;
+        background-color: whitesmoke;
+      }
+
+      .tours{
+        font-size: 60px;
+        text-align: center;
+        margin-top: 5%;
+        line-height: 1.8cm;
+        font-family: 'Taviraj', serif;
+      }
+
+      .line3{
+        background-color: #fc036b;
+        height: 4px;
+        width: 250px;
+        margin: 10px auto;
+      }
+
+      .im1{
+        height: 200px;
+        width: 300px;
+        margin-bottom: 15px;
+        margin-left: 7%;
+      }
+
+      .im2{
+        height: 200px;
+        width: 300px;
+        margin-bottom: 15px;
+      }
+
+      .im3{
+        height: 200px;
+        width: 300px;
+        margin-left: 7%;
+        margin-bottom: 15px;
+      }
+
+      .im4{
+        height: 200px;
+        width: 300px;
+        margin-bottom: 15px;
+      }
+
+      .eventcol{
+        margin-top: 3%;
+      }
+
+      .tourcol-text{
+        text-align: justify;
+        padding-left: 7vh;
+      }
+
+      .eventcol a{
+        color: whitesmoke;
+        background-color: #fc036b;
+        padding: 10px 25px;
+        border-radius: 25px;
+        text-decoration: none;
+        margin-top: 5%;
+        margin-left: 45%;
+      }
+
+      .eventcol a:hover{
+        color: whitesmoke !important;
+        background-color: #931d4e;
+      }
+
+      .footer{
+        background-color: #7ea0b6;
+        height: 47vh;
+        width: 100vw;
+        margin-top: 5%;
+      }
+
+      .subfooter{
+        background-color: #95b5d6;
+        height: 13vh;
+        width: 100vw;
+      }
+
+      .footercol{
+        margin-top: 2.5%;
+        padding-left: 8%;
+      }
+
+      .fa-square-phone{
+        margin-left: 15%;
+      }
+
+      .fa-envelope{
+        margin-left: 23%;
+      }
+
+      .fa-map-location-dot{
+        margin-left: 27%;
+      }
+
+      .footercol2{
+        margin-top: 5px;
+        padding-left: 200px;
+      }
+
+      .footercol3{
+        margin-top: 5px;
+        margin-right: -100px;
+        padding-left: 70px;
+      }
+
+      .footercol4{
+        margin-top: 5px;
+        padding-left: 50px;
+        margin-right: -70px;
+      }
+
+      .footercol5{
+        margin-top: 5px;
+        padding-left: 5px;
+      }
+
+      .footerline{
+        background-color: #95b5d6;
+        height: 0.5vh;
+        width: 90vw;
+        margin: 25px auto;
+      }
+
+      .snote{
+        padding-left: 15px;
+        color: #d6dadc;
+      }
+
+      .footer a{
+        color: #bbc9d7 !important;
+      }
+
+      .footer a:hover{
+        color: #931d4e !important;
+      }
+
+      .footer h6{
+        color: rgb(48, 48, 48);
+      }
+
+      .afterfooterline{
+        margin-bottom: 2.5%;
+      }
+
+      .icons{
+        margin: auto 42%;
+        padding-left: 2%;
+        margin-bottom: -15px;
+      }
+
+      .fa-facebook{
+        margin: 25px 5px;
+      }
+
+      .fa-instagram{
+        margin: 25px 5px;
+      }
+
+      .fa-twitter{
+        margin: 25px 5px;
+      }
+
+      .fa-linkedin-in{
+        margin: 25px 5px;
+      }
+
+      .copyright{
+        color: #c6dbea;
+        text-align: center;
+      }
+
+      .card-img-top1{
+
+        transition: all 0.2s ease;
+        cursor: pointer;
+      }
+        
+     .card-img-top1:hover{
+        transform: scale(1.1);
+      }
+
+      .card-img-top2{
+        transition: all 0.2s ease;
+        cursor: pointer;
+      }
+        
+     .card-img-top2:hover{
+        
+        transform: scale(1.1);
+    }
+
+    .pic1{
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+      
+   .pic1:hover{
+      
+      transform: scale(1.1);
+  }
+
+  .pic2{
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+    
+ .pic2:hover{
+    
+    transform: scale(1.1);
+}
+
+.pic3{
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+  
+.pic3:hover{
+  
+  transform: scale(1.1);
+}
+
+.pic4{
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+  
+.pic4:hover{
+  transform: scale(1.1);
+}
